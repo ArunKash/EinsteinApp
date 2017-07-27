@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463319ADC804AE06F4B52D95 /* libPods-Einstein AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2C06EC8BA1EFC1DDB747A9 /* libPods-Einstein AppTests.a */; };
+		6E48195B1F2A583E00841D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48195A1F2A583E00841D84 /* main.m */; };
+		6E48195E1F2A583E00841D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48195D1F2A583E00841D84 /* AppDelegate.m */; };
+		6E4819611F2A583E00841D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4819601F2A583E00841D84 /* ViewController.m */; };
+		6E4819641F2A583E00841D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4819621F2A583E00841D84 /* Main.storyboard */; };
+		6E4819671F2A583E00841D84 /* Einstein_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E4819651F2A583E00841D84 /* Einstein_App.xcdatamodeld */; };
+		6E4819691F2A583E00841D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4819681F2A583E00841D84 /* Assets.xcassets */; };
+		6E48196C1F2A583E00841D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E48196A1F2A583E00841D84 /* LaunchScreen.storyboard */; };
+		6E4819771F2A583E00841D84 /* Einstein_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4819761F2A583E00841D84 /* Einstein_AppTests.m */; };
+		6E4819821F2A583E00841D84 /* Einstein_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4819811F2A583E00841D84 /* Einstein_AppUITests.m */; };
+		CC4B745185D240F839BC9193 /* libPods-Einstein App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210D92A14A1E7F084A152F4A /* libPods-Einstein App.a */; };
+		DEA5A9804582E59289015A1B /* libPods-Einstein AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A986A0C7C522596C04A63C /* libPods-Einstein AppUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E4819731F2A583E00841D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E48194E1F2A583D00841D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E4819551F2A583D00841D84;
+			remoteInfo = "Einstein App";
+		};
+		6E48197E1F2A583E00841D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E48194E1F2A583D00841D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E4819551F2A583D00841D84;
+			remoteInfo = "Einstein App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001052C5B7F5F65C3BE4AC18 /* Pods-Einstein App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Einstein App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Einstein App/Pods-Einstein App.release.xcconfig"; sourceTree = "<group>"; };
+		031D8172284F2B1C3E93B58D /* Pods-Einstein AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Einstein AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Einstein AppTests/Pods-Einstein AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A0041EC74EEA1E647342FB1 /* Pods-Einstein AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Einstein AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Einstein AppUITests/Pods-Einstein AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		210D92A14A1E7F084A152F4A /* libPods-Einstein App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Einstein App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9B7570CC32DEC713C4D2A9 /* Pods-Einstein AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Einstein AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Einstein AppUITests/Pods-Einstein AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4806C32F1BEAEA39FC1D9DBB /* Pods-Einstein App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Einstein App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Einstein App/Pods-Einstein App.debug.xcconfig"; sourceTree = "<group>"; };
+		6E4819561F2A583E00841D84 /* Einstein App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Einstein App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E48195A1F2A583E00841D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E48195C1F2A583E00841D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E48195D1F2A583E00841D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E48195F1F2A583E00841D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E4819601F2A583E00841D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E4819631F2A583E00841D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E4819661F2A583E00841D84 /* Einstein_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Einstein_App.xcdatamodel; sourceTree = "<group>"; };
+		6E4819681F2A583E00841D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E48196B1F2A583E00841D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E48196D1F2A583E00841D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4819721F2A583E00841D84 /* Einstein AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Einstein AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4819761F2A583E00841D84 /* Einstein_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Einstein_AppTests.m; sourceTree = "<group>"; };
+		6E4819781F2A583E00841D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E48197D1F2A583E00841D84 /* Einstein AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Einstein AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4819811F2A583E00841D84 /* Einstein_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Einstein_AppUITests.m; sourceTree = "<group>"; };
+		6E4819831F2A583E00841D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2C06EC8BA1EFC1DDB747A9 /* libPods-Einstein AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Einstein AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD4F2BF4242C4086053C831 /* Pods-Einstein AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Einstein AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Einstein AppTests/Pods-Einstein AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A986A0C7C522596C04A63C /* libPods-Einstein AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Einstein AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E4819531F2A583D00841D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4B745185D240F839BC9193 /* libPods-Einstein App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E48196F1F2A583E00841D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463319ADC804AE06F4B52D95 /* libPods-Einstein AppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E48197A1F2A583E00841D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA5A9804582E59289015A1B /* libPods-Einstein AppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E48194D1F2A583D00841D84 = {
+			isa = PBXGroup;
+			children = (
+				6E4819581F2A583E00841D84 /* Einstein App */,
+				6E4819751F2A583E00841D84 /* Einstein AppTests */,
+				6E4819801F2A583E00841D84 /* Einstein AppUITests */,
+				6E4819571F2A583E00841D84 /* Products */,
+				6F2682C712080CB79EA9A675 /* Pods */,
+				B996D29E67A837747ADFBAA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E4819571F2A583E00841D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4819561F2A583E00841D84 /* Einstein App.app */,
+				6E4819721F2A583E00841D84 /* Einstein AppTests.xctest */,
+				6E48197D1F2A583E00841D84 /* Einstein AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E4819581F2A583E00841D84 /* Einstein App */ = {
+			isa = PBXGroup;
+			children = (
+				6E48195C1F2A583E00841D84 /* AppDelegate.h */,
+				6E48195D1F2A583E00841D84 /* AppDelegate.m */,
+				6E48195F1F2A583E00841D84 /* ViewController.h */,
+				6E4819601F2A583E00841D84 /* ViewController.m */,
+				6E4819621F2A583E00841D84 /* Main.storyboard */,
+				6E4819681F2A583E00841D84 /* Assets.xcassets */,
+				6E48196A1F2A583E00841D84 /* LaunchScreen.storyboard */,
+				6E48196D1F2A583E00841D84 /* Info.plist */,
+				6E4819651F2A583E00841D84 /* Einstein_App.xcdatamodeld */,
+				6E4819591F2A583E00841D84 /* Supporting Files */,
+			);
+			path = "Einstein App";
+			sourceTree = "<group>";
+		};
+		6E4819591F2A583E00841D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E48195A1F2A583E00841D84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E4819751F2A583E00841D84 /* Einstein AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E4819761F2A583E00841D84 /* Einstein_AppTests.m */,
+				6E4819781F2A583E00841D84 /* Info.plist */,
+			);
+			path = "Einstein AppTests";
+			sourceTree = "<group>";
+		};
+		6E4819801F2A583E00841D84 /* Einstein AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E4819811F2A583E00841D84 /* Einstein_AppUITests.m */,
+				6E4819831F2A583E00841D84 /* Info.plist */,
+			);
+			path = "Einstein AppUITests";
+			sourceTree = "<group>";
+		};
+		6F2682C712080CB79EA9A675 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4806C32F1BEAEA39FC1D9DBB /* Pods-Einstein App.debug.xcconfig */,
+				001052C5B7F5F65C3BE4AC18 /* Pods-Einstein App.release.xcconfig */,
+				ECD4F2BF4242C4086053C831 /* Pods-Einstein AppTests.debug.xcconfig */,
+				031D8172284F2B1C3E93B58D /* Pods-Einstein AppTests.release.xcconfig */,
+				2E9B7570CC32DEC713C4D2A9 /* Pods-Einstein AppUITests.debug.xcconfig */,
+				1A0041EC74EEA1E647342FB1 /* Pods-Einstein AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B996D29E67A837747ADFBAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				210D92A14A1E7F084A152F4A /* libPods-Einstein App.a */,
+				AA2C06EC8BA1EFC1DDB747A9 /* libPods-Einstein AppTests.a */,
+				F4A986A0C7C522596C04A63C /* libPods-Einstein AppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E4819551F2A583D00841D84 /* Einstein App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4819861F2A583E00841D84 /* Build configuration list for PBXNativeTarget "Einstein App" */;
+			buildPhases = (
+				1332CFD9EBE37D3E0FD4B541 /* [CP] Check Pods Manifest.lock */,
+				6E4819521F2A583D00841D84 /* Sources */,
+				6E4819531F2A583D00841D84 /* Frameworks */,
+				6E4819541F2A583D00841D84 /* Resources */,
+				1BB8FD3E89463F08876D8976 /* [CP] Embed Pods Frameworks */,
+				F8195FD55ECA57B87FBD3237 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Einstein App";
+			productName = "Einstein App";
+			productReference = 6E4819561F2A583E00841D84 /* Einstein App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E4819711F2A583E00841D84 /* Einstein AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4819891F2A583E00841D84 /* Build configuration list for PBXNativeTarget "Einstein AppTests" */;
+			buildPhases = (
+				611F88D7DD32620D1D1C9C97 /* [CP] Check Pods Manifest.lock */,
+				6E48196E1F2A583E00841D84 /* Sources */,
+				6E48196F1F2A583E00841D84 /* Frameworks */,
+				6E4819701F2A583E00841D84 /* Resources */,
+				48971345F92894A710F08D12 /* [CP] Embed Pods Frameworks */,
+				86F43D49D17B17BF37C4CCFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E4819741F2A583E00841D84 /* PBXTargetDependency */,
+			);
+			name = "Einstein AppTests";
+			productName = "Einstein AppTests";
+			productReference = 6E4819721F2A583E00841D84 /* Einstein AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E48197C1F2A583E00841D84 /* Einstein AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E48198C1F2A583E00841D84 /* Build configuration list for PBXNativeTarget "Einstein AppUITests" */;
+			buildPhases = (
+				026A1D240773B36376FD5C85 /* [CP] Check Pods Manifest.lock */,
+				6E4819791F2A583E00841D84 /* Sources */,
+				6E48197A1F2A583E00841D84 /* Frameworks */,
+				6E48197B1F2A583E00841D84 /* Resources */,
+				6CC7A13977ECD49D446BE057 /* [CP] Embed Pods Frameworks */,
+				138542A60D7686F8EC500C63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E48197F1F2A583E00841D84 /* PBXTargetDependency */,
+			);
+			name = "Einstein AppUITests";
+			productName = "Einstein AppUITests";
+			productReference = 6E48197D1F2A583E00841D84 /* Einstein AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E48194E1F2A583D00841D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cognizant Technology Solutions";
+				TargetAttributes = {
+					6E4819551F2A583D00841D84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L5ZK6P58VN;
+						ProvisioningStyle = Automatic;
+					};
+					6E4819711F2A583E00841D84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L5ZK6P58VN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E4819551F2A583D00841D84;
+					};
+					6E48197C1F2A583E00841D84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L5ZK6P58VN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E4819551F2A583D00841D84;
+					};
+				};
+			};
+			buildConfigurationList = 6E4819511F2A583D00841D84 /* Build configuration list for PBXProject "Einstein App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E48194D1F2A583D00841D84;
+			productRefGroup = 6E4819571F2A583E00841D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E4819551F2A583D00841D84 /* Einstein App */,
+				6E4819711F2A583E00841D84 /* Einstein AppTests */,
+				6E48197C1F2A583E00841D84 /* Einstein AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E4819541F2A583D00841D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E48196C1F2A583E00841D84 /* LaunchScreen.storyboard in Resources */,
+				6E4819691F2A583E00841D84 /* Assets.xcassets in Resources */,
+				6E4819641F2A583E00841D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4819701F2A583E00841D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E48197B1F2A583E00841D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		026A1D240773B36376FD5C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1332CFD9EBE37D3E0FD4B541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		138542A60D7686F8EC500C63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Einstein AppUITests/Pods-Einstein AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB8FD3E89463F08876D8976 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Einstein App/Pods-Einstein App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48971345F92894A710F08D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Einstein AppTests/Pods-Einstein AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611F88D7DD32620D1D1C9C97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC7A13977ECD49D446BE057 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Einstein AppUITests/Pods-Einstein AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F43D49D17B17BF37C4CCFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Einstein AppTests/Pods-Einstein AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8195FD55ECA57B87FBD3237 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Einstein App/Pods-Einstein App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E4819521F2A583D00841D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4819671F2A583E00841D84 /* Einstein_App.xcdatamodeld in Sources */,
+				6E4819611F2A583E00841D84 /* ViewController.m in Sources */,
+				6E48195E1F2A583E00841D84 /* AppDelegate.m in Sources */,
+				6E48195B1F2A583E00841D84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E48196E1F2A583E00841D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4819771F2A583E00841D84 /* Einstein_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4819791F2A583E00841D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4819821F2A583E00841D84 /* Einstein_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E4819741F2A583E00841D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E4819551F2A583D00841D84 /* Einstein App */;
+			targetProxy = 6E4819731F2A583E00841D84 /* PBXContainerItemProxy */;
+		};
+		6E48197F1F2A583E00841D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E4819551F2A583D00841D84 /* Einstein App */;
+			targetProxy = 6E48197E1F2A583E00841D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E4819621F2A583E00841D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4819631F2A583E00841D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E48196A1F2A583E00841D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E48196B1F2A583E00841D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E4819841F2A583E00841D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6E4819851F2A583E00841D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E4819871F2A583E00841D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4806C32F1BEAEA39FC1D9DBB /* Pods-Einstein App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				DEVELOPMENT_TEAM = L5ZK6P58VN;
+				INFOPLIST_FILE = "Einstein App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.einstein.Einstein-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E4819881F2A583E00841D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001052C5B7F5F65C3BE4AC18 /* Pods-Einstein App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				DEVELOPMENT_TEAM = L5ZK6P58VN;
+				INFOPLIST_FILE = "Einstein App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.einstein.Einstein-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E48198A1F2A583E00841D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD4F2BF4242C4086053C831 /* Pods-Einstein AppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L5ZK6P58VN;
+				INFOPLIST_FILE = "Einstein AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.einstein.Einstein-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Einstein App.app/Einstein App";
+			};
+			name = Debug;
+		};
+		6E48198B1F2A583E00841D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031D8172284F2B1C3E93B58D /* Pods-Einstein AppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L5ZK6P58VN;
+				INFOPLIST_FILE = "Einstein AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.einstein.Einstein-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Einstein App.app/Einstein App";
+			};
+			name = Release;
+		};
+		6E48198D1F2A583E00841D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9B7570CC32DEC713C4D2A9 /* Pods-Einstein AppUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L5ZK6P58VN;
+				INFOPLIST_FILE = "Einstein AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.einstein.Einstein-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Einstein App";
+			};
+			name = Debug;
+		};
+		6E48198E1F2A583E00841D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0041EC74EEA1E647342FB1 /* Pods-Einstein AppUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L5ZK6P58VN;
+				INFOPLIST_FILE = "Einstein AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.einstein.Einstein-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Einstein App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E4819511F2A583D00841D84 /* Build configuration list for PBXProject "Einstein App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4819841F2A583E00841D84 /* Debug */,
+				6E4819851F2A583E00841D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4819861F2A583E00841D84 /* Build configuration list for PBXNativeTarget "Einstein App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4819871F2A583E00841D84 /* Debug */,
+				6E4819881F2A583E00841D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4819891F2A583E00841D84 /* Build configuration list for PBXNativeTarget "Einstein AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E48198A1F2A583E00841D84 /* Debug */,
+				6E48198B1F2A583E00841D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E48198C1F2A583E00841D84 /* Build configuration list for PBXNativeTarget "Einstein AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E48198D1F2A583E00841D84 /* Debug */,
+				6E48198E1F2A583E00841D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E4819651F2A583E00841D84 /* Einstein_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E4819661F2A583E00841D84 /* Einstein_App.xcdatamodel */,
+			);
+			currentVersion = 6E4819661F2A583E00841D84 /* Einstein_App.xcdatamodel */;
+			path = Einstein_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E48194E1F2A583D00841D84 /* Project object */;
+}
