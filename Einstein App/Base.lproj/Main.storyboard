@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="w09-j3-201">
     <device id="ipad10_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,10 +23,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZm-2u-1Hx">
-                                <rect key="frame" x="110" y="338" width="228" height="220"/>
+                                <rect key="frame" x="110" y="286" width="228" height="220"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="228" id="5zX-YI-ZcL"/>
+                                    <constraint firstAttribute="width" constant="228" id="S8U-EO-f2t"/>
+                                    <constraint firstAttribute="height" constant="220" id="xIX-pA-9cR"/>
                                 </constraints>
                                 <color key="tintColor" red="0.9751141505129336" green="0.98023620180972426" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="titleShadowOffset" width="57" height="10"/>
@@ -37,31 +37,27 @@
                                 </state>
                                 <connections>
                                     <action selector="VisionBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W48-uB-vdL"/>
-                                    <segue destination="AhJ-hK-T18" kind="presentation" id="xMq-51-XpD"/>
+                                    <segue destination="AhJ-hK-T18" kind="show" id="OS6-2Y-VUC"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo-Video-Slr-Body-icon" translatesAutoresizingMaskIntoConstraints="NO" id="w6I-Or-d5T">
-                                <rect key="frame" x="126" y="342" width="199" height="149"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="199" id="5KW-Xo-g97"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo-Video-Slr-Body-icon" translatesAutoresizingMaskIntoConstraints="NO" id="w6I-Or-d5T">
+                                <rect key="frame" x="126" y="290" width="199" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Einstein Vision" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9j-43-Jbn">
-                                <rect key="frame" x="119" y="481" width="204" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="pxg-xo-hUB"/>
-                                    <constraint firstAttribute="width" constant="204" id="x6b-1t-qew"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Einstein Vision" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9j-43-Jbn">
+                                <rect key="frame" x="119" y="429" width="204" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="500" height="-1"/>
                             </label>
-                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCq-7g-nWO" userLabel="EmotionButton">
-                                <rect key="frame" x="400" y="338" width="228" height="220"/>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCq-7g-nWO" userLabel="EmotionButton">
+                                <rect key="frame" x="400" y="286" width="228" height="220"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="228" id="q1V-nd-0ln"/>
+                                    <constraint firstAttribute="width" constant="228" id="DEi-yh-w7U"/>
+                                    <constraint firstAttribute="height" constant="220" id="G2x-sc-7wN"/>
                                 </constraints>
                                 <color key="tintColor" red="0.97511415050000005" green="0.98023620180000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="titleShadowOffset" width="57" height="10"/>
@@ -69,30 +65,28 @@
                                     <color key="titleColor" red="0.97511415050000005" green="0.98023620180000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.61924930180000004" green="0.66277363580000004" blue="0.64406687389999995" alpha="0.4922142551" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qPs-Hy-WwR" kind="show" id="vRs-bY-tmq"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Business-Decision-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Nha-Yn-HPE">
-                                <rect key="frame" x="414.5" y="348" width="199" height="133"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="199" id="ydc-Po-atl"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Business-Decision-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Nha-Yn-HPE">
+                                <rect key="frame" x="415" y="296" width="199" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Einstein Emotion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzW-6s-X6t">
-                                <rect key="frame" x="412" y="481" width="204" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="204" id="Rt0-lu-8EI"/>
-                                    <constraint firstAttribute="height" constant="54" id="yEK-t6-yf8"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Einstein Emotion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzW-6s-X6t">
+                                <rect key="frame" x="412" y="429" width="204" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="500" height="-1"/>
                             </label>
-                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufK-jZ-s9E">
-                                <rect key="frame" x="679" y="338" width="228" height="220"/>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufK-jZ-s9E">
+                                <rect key="frame" x="679" y="286" width="228" height="220"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="228" id="Ihe-2h-zma"/>
-                                    <constraint firstAttribute="width" constant="228" id="xsx-1i-Fdv"/>
+                                    <constraint firstAttribute="height" constant="220" id="qRh-31-xpa"/>
+                                    <constraint firstAttribute="width" constant="228" id="xHF-fh-qja"/>
                                 </constraints>
                                 <color key="tintColor" red="0.97511415050000005" green="0.98023620180000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="titleShadowOffset" width="57" height="10"/>
@@ -100,65 +94,32 @@
                                     <color key="titleColor" red="0.97511415050000005" green="0.98023620180000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.61924930180000004" green="0.66277363580000004" blue="0.64406687389999995" alpha="0.4922142551" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="y0K-rk-7bo" kind="show" id="X22-m9-5og"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Einstein Predict" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjR-iZ-lzB">
-                                <rect key="frame" x="689" y="481" width="204" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="PkV-bK-I54"/>
-                                    <constraint firstAttribute="width" constant="204" id="Vxh-Wv-d0D"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Einstein Predict" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjR-iZ-lzB">
+                                <rect key="frame" x="689" y="429" width="204" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="500" height="-1"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Data-Add-Database-icon" translatesAutoresizingMaskIntoConstraints="NO" id="1Ye-ZI-DpX">
-                                <rect key="frame" x="719" y="351" width="160" height="127"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="97X-Y3-RfM"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Data-Add-Database-icon" translatesAutoresizingMaskIntoConstraints="NO" id="1Ye-ZI-DpX">
+                                <rect key="frame" x="719" y="299" width="160" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96107254131428577" green="0.97058811103026876" blue="0.97058811103026876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.96107254129999997" green="0.97058811099999998" blue="0.97058811099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="bottom" secondItem="SCq-7g-nWO" secondAttribute="bottom" id="2jn-g7-Jrs"/>
-                            <constraint firstItem="Nha-Yn-HPE" firstAttribute="centerY" secondItem="1Ye-ZI-DpX" secondAttribute="centerY" id="3vl-eZ-GU0"/>
-                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="110" id="46J-gR-kfG"/>
-                            <constraint firstItem="SCq-7g-nWO" firstAttribute="centerX" secondItem="Nha-Yn-HPE" secondAttribute="centerX" id="7Ub-x0-Iig"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="vjR-iZ-lzB" secondAttribute="trailing" constant="99" id="8Zv-h4-cSF"/>
-                            <constraint firstItem="y9j-43-Jbn" firstAttribute="firstBaseline" secondItem="FzW-6s-X6t" secondAttribute="firstBaseline" priority="750" id="BuC-re-i9I"/>
-                            <constraint firstItem="FzW-6s-X6t" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="417" id="CKW-ZS-WAY"/>
-                            <constraint firstItem="FzW-6s-X6t" firstAttribute="baseline" secondItem="vjR-iZ-lzB" secondAttribute="baseline" id="Izv-eS-Yyg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1Ye-ZI-DpX" secondAttribute="trailing" constant="113" id="J2V-Pl-O14"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Nha-Yn-HPE" secondAttribute="bottom" constant="353" id="Kp8-lH-ma1"/>
-                            <constraint firstItem="w6I-Or-d5T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="126" id="Lgi-K6-e4O"/>
-                            <constraint firstItem="vjR-iZ-lzB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="417" id="M2C-uI-Gt8"/>
-                            <constraint firstItem="ufK-jZ-s9E" firstAttribute="leading" secondItem="SCq-7g-nWO" secondAttribute="trailing" constant="101" id="MPu-nU-JQK"/>
-                            <constraint firstItem="y9j-43-Jbn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="417" id="OxS-db-LBV"/>
-                            <constraint firstItem="ufK-jZ-s9E" firstAttribute="baseline" secondItem="SCq-7g-nWO" secondAttribute="baseline" id="P4e-3L-dNS"/>
-                            <constraint firstItem="y9j-43-Jbn" firstAttribute="baseline" secondItem="FzW-6s-X6t" secondAttribute="baseline" priority="750" id="RZ1-IK-mCf"/>
-                            <constraint firstItem="Nha-Yn-HPE" firstAttribute="centerX" secondItem="FzW-6s-X6t" secondAttribute="centerX" id="WtX-Oe-12z"/>
-                            <constraint firstItem="SCq-7g-nWO" firstAttribute="firstBaseline" secondItem="ufK-jZ-s9E" secondAttribute="firstBaseline" priority="750" id="Z3F-uO-dkq"/>
-                            <constraint firstItem="FzW-6s-X6t" firstAttribute="firstBaseline" secondItem="vjR-iZ-lzB" secondAttribute="firstBaseline" id="avb-Am-V4F"/>
-                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="baseline" secondItem="SCq-7g-nWO" secondAttribute="baseline" priority="750" id="c8s-LE-Twg"/>
-                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="firstBaseline" secondItem="SCq-7g-nWO" secondAttribute="firstBaseline" priority="750" id="cxc-CR-MSV"/>
-                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="274" id="dBo-KI-3gR"/>
-                            <constraint firstItem="Nha-Yn-HPE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="284" id="e3b-6C-Fhb"/>
-                            <constraint firstItem="ufK-jZ-s9E" firstAttribute="baseline" secondItem="gZm-2u-1Hx" secondAttribute="baseline" id="e7s-YQ-dFL"/>
-                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="top" secondItem="SCq-7g-nWO" secondAttribute="top" priority="750" id="flZ-h0-FTF"/>
-                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="firstBaseline" secondItem="ufK-jZ-s9E" secondAttribute="firstBaseline" id="hh5-dt-2bP"/>
-                            <constraint firstItem="SCq-7g-nWO" firstAttribute="top" secondItem="ufK-jZ-s9E" secondAttribute="top" id="jbo-fc-49d"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w6I-Or-d5T" secondAttribute="bottom" constant="343" id="jwV-I2-sa3"/>
-                            <constraint firstItem="1Ye-ZI-DpX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="287" id="lkQ-ym-sCD"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="y9j-43-Jbn" secondAttribute="bottom" constant="299" id="nW0-h6-XNd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ufK-jZ-s9E" secondAttribute="trailing" priority="750" constant="85" id="rHB-wY-7oX"/>
-                            <constraint firstItem="w6I-Or-d5T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="278" id="rtP-pE-fmV"/>
-                            <constraint firstItem="y9j-43-Jbn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" priority="250" constant="417" id="tpX-mw-y55"/>
-                            <constraint firstItem="SCq-7g-nWO" firstAttribute="bottom" secondItem="ufK-jZ-s9E" secondAttribute="bottom" priority="750" id="uVi-H4-tMm"/>
-                            <constraint firstItem="SCq-7g-nWO" firstAttribute="leading" secondItem="gZm-2u-1Hx" secondAttribute="trailing" constant="112" id="wdb-aQ-vvM"/>
-                            <constraint firstItem="y9j-43-Jbn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="119" id="wpi-Cf-tMO"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gZm-2u-1Hx" secondAttribute="bottom" constant="276" id="xZU-O5-msS"/>
+                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="90" id="BUT-xc-GJm"/>
+                            <constraint firstItem="gZm-2u-1Hx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="222" id="Lt8-Jy-gVj"/>
+                            <constraint firstItem="SCq-7g-nWO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="222" id="ZSP-8K-fyY"/>
+                            <constraint firstItem="ufK-jZ-s9E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="222" id="elc-TI-6ol"/>
+                            <constraint firstItem="SCq-7g-nWO" firstAttribute="leading" secondItem="gZm-2u-1Hx" secondAttribute="trailing" constant="62" id="xBx-YO-hvP"/>
+                            <constraint firstItem="ufK-jZ-s9E" firstAttribute="leading" secondItem="SCq-7g-nWO" secondAttribute="trailing" constant="51" id="ypR-Pg-umj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2WB-s2-PcJ"/>
@@ -170,7 +131,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-172" y="201"/>
+            <point key="canvasLocation" x="-172.12230215827338" y="200.71942446043167"/>
+        </scene>
+        <!--Einstein Predict Scene-->
+        <scene sceneID="pP7-nk-gFI">
+            <objects>
+                <viewController title="Einstein Predict Scene" id="y0K-rk-7bo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ej5-sf-L6s"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Gj-5c-Zaj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DQn-1T-RPS">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Einstein Predict Is Under Construction." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-FU-wPl">
+                                <rect key="frame" x="331" y="391" width="450" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96047002077102661" green="0.96871930360794067" blue="0.96860390901565552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vh-0i-mAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="461" y="-479"/>
+        </scene>
+        <!--Einstein Emotion Scene-->
+        <scene sceneID="tSB-tp-mgt">
+            <objects>
+                <viewController title="Einstein Emotion Scene" id="qPs-Hy-WwR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="usz-kD-Lpo"/>
+                        <viewControllerLayoutGuide type="bottom" id="bdP-3n-sp9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i2L-HR-1Zw">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Einstein Emotion Is Under Construction." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwM-hS-CVZ">
+                                <rect key="frame" x="331" y="391" width="450" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96047002077102661" green="0.96871930360794067" blue="0.96860390901565552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RMd-Bt-iDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="731" y="201"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ETr-FI-U6c">
@@ -186,7 +201,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DDh-z3-Shl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1042" y="221"/>
+            <point key="canvasLocation" x="-881" y="219"/>
         </scene>
         <!--EinsteinVisionScene-->
         <scene sceneID="Lrz-id-jfd">
@@ -199,11 +214,22 @@
                     <view key="view" contentMode="scaleToFill" id="i8X-K9-dxc">
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Einstein Vision Is Under Construction." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3X-Wc-HgT">
+                                <rect key="frame" x="346" y="407" width="420" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96047002077102661" green="0.96871930360794067" blue="0.96860390901565552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="kDb-DS-Kev"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytp-4c-8nL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-172" y="1175"/>
+            <point key="canvasLocation" x="-699" y="1761"/>
         </scene>
     </scenes>
     <resources>
